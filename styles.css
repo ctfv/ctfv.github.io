@@ -27,7 +27,6 @@ h1::after {
     animation: squiggleLoop 2s linear infinite;
 }
 
-
 @keyframes squiggleLoop {
     0% {
         background-position: 0 0;
@@ -44,4 +43,24 @@ h1::after {
     100% {
         opacity: 1;
     }
+}
+
+a {
+    color: #8a2be2;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #ff00ff;
+    transform: scale(1.1);
+}
+
+img {
+    display: block; 
+    margin-top: 20px; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
 }
