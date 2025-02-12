@@ -1,1 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    color: #8a2be2; 
+    font-size: 3em;
+    padding: 20px 50px;
+    display: block; 
+    position: relative;
+}
 
